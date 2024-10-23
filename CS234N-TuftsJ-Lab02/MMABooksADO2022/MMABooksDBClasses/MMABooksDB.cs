@@ -15,7 +15,7 @@ namespace MMABooksDBClasses
 
         }
 
-        private static string GetMySqlConnectionString()
+        public static string GetMySqlConnectionString()
         {
             string folder = System.AppContext.BaseDirectory;
             var builder = new ConfigurationBuilder()
